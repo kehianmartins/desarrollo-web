@@ -1,1 +1,0 @@
-const contrasena = 12345678;
