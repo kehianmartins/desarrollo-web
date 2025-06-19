@@ -1,106 +1,61 @@
-# 🟨 Curso de JavaScript
+# 🐘 Curso de Introducción a PHP
 
-Este módulo contiene ejercicios prácticos de JavaScript organizados por temas fundamentales. Ideal para avanzar desde los conceptos básicos hasta la manipulación del DOM y consumo de APIs.
+Este módulo contiene archivos organizados paso a paso para aprender los fundamentos del lenguaje PHP, desde lo más básico hasta estructuras condicionales, funciones, y manejo de arrays.
 
----
-
-## 📄 Índice por temas
-
-### 🔸 HTML & CSS base
-- [`index.html`](../JavaScript/index.html)
-- [`css/style.css`](../JavaScript/css/style.css)
+📁 Carpeta principal: [`PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio)
 
 ---
 
-### 🔹 00 - Modo Estricto
-- [`00-use-strict.js`](../JavaScript/js/00-use-strict.js)
+## 📄 Archivos por orden sugerido
+
+### 🔹 Fundamentos
+
+- [`01-hola-mundo.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/01-hola-mundo.php)
+- [`02-variables.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/02-variables.php)
+- [`03-tipos-dato.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/03-tipos-dato.php)
+- [`04-operadores.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/04-operadores.php)
+- [`05-comparacion.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/05-comparacion.php)
+- [`06-inc-dec.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/06-inc-dec.php)
 
 ---
 
-### 🔹 01 - Variables
-- [`var`](../JavaScript/js/01-Variables/01-var.js)
-- [`let`](../JavaScript/js/01-Variables/02-let.js)
-- [`const`](../JavaScript/js/01-Variables/03-const.js)
+### 🔹 Cadenas y Arrays
+
+- [`07-string-methods.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/07-string-methods.php)
+- [`08-arrays.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/08-arrays.php)
+- [`09-arrays-assoc.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/09-arrays-assoc.php)
 
 ---
 
-### 🔹 02 - Tipos Primitivos
-- [`string`](../JavaScript/js/02-Primitivos/01-string.js)
-- [`números`](../JavaScript/js/02-Primitivos/02-numeros.js)
-- [`boolean`](../JavaScript/js/02-Primitivos/03-boolean.js)
+### 🔹 Validaciones y lógica
+
+- [`10-isset-empty.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/10-isset-empty.php)
+- [`11-funciones-arrays.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/11-funciones-arrays.php)
+- [`12-condicionales.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/12-condicionales.php)
+- [`13-loops.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/13-loops.php)
+- [`14-foreach.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/14-foreach.php)
 
 ---
 
-### 🔹 03 - Estructuras de Datos
+### 🔹 Funciones y estructuras
 
-#### ▸ Objetos
-- [`objetos`](../JavaScript/js/03-Estructuras-de-Datos/01-objetos/01-objetos.js)
-- [`destructuring`](../JavaScript/js/03-Estructuras-de-Datos/01-objetos/02-destructuring.js)
-- [`métodos`](../JavaScript/js/03-Estructuras-de-Datos/01-objetos/03-metodos.js)
-- [`unir objetos`](../JavaScript/js/03-Estructuras-de-Datos/01-objetos/04-unir-obj.js)
-- [`objetos con métodos`](../JavaScript/js/03-Estructuras-de-Datos/01-objetos/05-obj-con-met.js)
-- [`this`](../JavaScript/js/03-Estructuras-de-Datos/01-objetos/06-this.js)
-
-#### ▸ Arreglos
-- [`arreglos.js`](../JavaScript/js/03-Estructuras-de-Datos/02-arreglos/01-arreglos.js)
-- [`métodos`](../JavaScript/js/03-Estructuras-de-Datos/02-arreglos/02-metodos.js)
-- [`rest/spread`](../JavaScript/js/03-Estructuras-de-Datos/02-arreglos/03-rest-spread.js)
-- [`más métodos`](../JavaScript/js/03-Estructuras-de-Datos/02-arreglos/04-mas-metodos.js)
-- [`forEach`](../JavaScript/js/03-Estructuras-de-Datos/02-arreglos/forEach.js)
-- [`map`](../JavaScript/js/03-Estructuras-de-Datos/02-arreglos/map.js)
+- [`15-funciones.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/15-funciones.php)
+- [`16-types.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/16-types.php)
+- [`17-require.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/17-require.php)
 
 ---
 
-### 🔹 04 - Operaciones
-- [`incremento`](../JavaScript/js/03-Operaciones/02-incremento.js)
-- [`orden de operaciones`](../JavaScript/js/03-Operaciones/02-orden-op.js)
-- [`objeto Math`](../JavaScript/js/03-Operaciones/03-obj-math.js)
+### 🔹 JSON y parámetros nombrados
+
+- [`18.json.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/18.json.php)
+- [`19-named-param.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/19-named-param.php)
 
 ---
 
-### 🔹 05 - Funciones
-- [`functions`](../JavaScript/js/04-Funciones/01-functions.js)
-- [`tipos de funciones`](../JavaScript/js/04-Funciones/02-tipos-de-func.js)
-- [`arrow`](../JavaScript/js/04-Funciones/03-arrow.js)
-- [`otro archivo`](../JavaScript/js/04-Funciones/otro-archivo.js)
+### 🔹 Estructura de archivos
+
+- [`css/style.css`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/css/style.css)
+- [`includes/header.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/includes/header.php)
+- [`includes/footer.php`](../PHP/IntroduccionPHP_inicio/IntroduccionPHP_inicio/includes/footer.php)
 
 ---
-
-### 🔹 06 - Estructuras de Control
-- [`if/else`](../JavaScript/js/05-Estructura-Control/01-if-else.js)
-- [`switch`](../JavaScript/js/05-Estructura-Control/02-switch.js)
-- [`for`](../JavaScript/js/05-Estructura-Control/03-for.js)
-- [`while`](../JavaScript/js/05-Estructura-Control/04-while.js)
-- [`do while`](../JavaScript/js/05-Estructura-Control/05-do-while.js)
-- [`try/catch`](../JavaScript/js/05-Estructura-Control/06-try-catch.js)
-
----
-
-### 🔹 07 - Programación Orientada a Objetos
-- [`constructor`](../JavaScript/js/06-POO/01-obj-constructor.js)
-- [`prototipos`](../JavaScript/js/06-POO/02-prototipos.js)
-- [`clases`](../JavaScript/js/06-POO/03-Clases.js)
-- [`herencia`](../JavaScript/js/06-POO/04-Herencia.js)
-- [`promesas`](../JavaScript/js/06-POO/05-Promises.js)
-
----
-
-### 🔹 08 - API
-- [`notificaciones`](../JavaScript/js/07-API/01-notificaton.js)
-- [`async/await`](../JavaScript/js/07-API/02-async-await.js)
-- [`consultas múltiples`](../JavaScript/js/07-API/03-dos-conulstas-async.js)
-
----
-
-### 🔹 09 - Fetch API
-- [`fetch`](../JavaScript/js/08-Fetch-API/01-fetch.js)
-- [`empleados.json`](../JavaScript/js/08-Fetch-API/empleados.json)
-
----
-
-### 🔹 10 - DOM
-Proyecto con HTML, CSS y JS:
-- [`JavaScript_DOM_Eventos_inicio`](../JavaScript/js/09-DOM/JavaScript_DOM_Eventos_inicio/)
-
----
-
