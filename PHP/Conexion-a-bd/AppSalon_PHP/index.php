@@ -1,3 +1,19 @@
+<?php
+    require __DIR__ . '/includes/funciones.php';
+    // __DIR__ : variable global del directorio del archivo
+
+    $consulta = obtener_servicios();
+
+    // Recordar siempre intentar:
+    /*
+        echo "<pre>;"
+        var_dump(mysqli_fetch_assoc($consulta));
+        echo "<pre>;"
+    */
+
+    // Para debuggear de una mejor manera mientras programamos
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -19,7 +35,16 @@
                 <h2>Servicios</h2>
                 <p class="text-center">Elige tus Servicios a Continuación</p>
                 <div id="servicios" class="listado-servicios">
-                    
+                    <?php 
+                        while($servicio = mysqli_fetch_assoc($consulta)) {
+                    ?>
+
+                    <div class="servicio">
+                        <p class="nombre-servicio"><?php echo $servicio['nombre']; ?></p>
+                        <p class="precio-servicio"><?php echo $servicio['precio']; ?></p>
+                    </div>
+
+                    <?php } // cierre de la llave del while?> 
                 </div>
             </div>
         </div>
