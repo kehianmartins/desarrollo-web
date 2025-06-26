@@ -1,0 +1,14 @@
+# Ignorar node_modules en cualquier subcarpeta
+**/node_modules/
+
+# Ignorar dist o build en cualquier subcarpeta
+**/dist/
+**/build/
+
+# Ignorar carpetas css generadas
+# Se ignorar porque es mejor que los archivos scss sean compilados luego
+**/css/
+
+# Ignorar archivos .css o .map en cualquier lugar
+**/*.css
+**/*.css.map

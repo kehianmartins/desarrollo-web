@@ -1,0 +1,16 @@
+{
+    "name": "kehian/php",
+    "description": "Aprendiendo PHP",
+    "authors": [
+        {
+            "name": "Kehian",
+            "email": "kehianmartins2703@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./POO/clases"
+        }
+    }
+}
